@@ -20,9 +20,9 @@ const LandingText = () => {
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.5, duration: 1 }}
-      className="mt-4  text-lg text-gray-700 dark:text-gray-300 text-center max-w-xl"
+      className="mt-4  text-3xl text-gray-700 dark:text-gray-300 text-center max-w-4xl"
     >
-      Stay consistent, stay ahead. Be the Real Rizzler 💪  
+      Stay consistent, stay ahead. Be the Real Rizzler  
     </motion.p>
 
     {/* Call-to-Action */}
@@ -32,7 +32,7 @@ const LandingText = () => {
       transition={{ delay: 1.5, duration: 0.5 }}
       className="mt-6"
     >
-      <Button className="px-6 py-5 text-lg font-semibold">Start Grinding 🚀</Button>
+      <Button className="px-6 py-5 text-lg font-semibold">Start Grinding</Button>
     </motion.div>
 
     

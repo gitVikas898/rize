@@ -7,9 +7,9 @@ import FAQSection from "./components/Faq";
 
 const Page = () => {
   return (
-    <div className=" min-h-screen text-gray-900 dark:text-gray-100">
+    <div className="grid gap-4 place-content-center min-h-[70vh] text-gray-900 dark:text-gray-100">
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4">
         <LandingText />
       </section>
 

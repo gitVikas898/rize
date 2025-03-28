@@ -10,8 +10,9 @@ const Navbar = () => {
                 </h1>
             </div>
             <div className="flex gap-2 items-center">
-                <Button variant="outline">Sign in</Button>
+                
                 <ModeToggle />
+                <Button>Sign in</Button>
             </div>
         </nav>
     )
